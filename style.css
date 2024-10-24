@@ -207,8 +207,7 @@ main {
 
 }
 
-.join-btn,
-calculate-btn {
+.join-btn , .calculate-btn {
     margin-top: 20px;
     border: solid 1px;
     border-radius: 50px;
@@ -228,6 +227,9 @@ calculate-btn {
 .join-btn:hover{
     background-color: red;
 }
+.calculate-btn:hover{
+    background-color: red;
+}
 
 #run-image {
     height: 312px;
@@ -235,23 +237,49 @@ calculate-btn {
     border-radius: 18px;
 }
 
+.bmi{
+    color: white;
+     background: #222;
+      margin-top: 30px;
+      width: 100%;
+
+}
+
 #bmi-calculation-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 70px;
+}
+
+.bmi-heading{
+    font-size: 28px;
+font-style: normal;
+font-weight: 800;
+margin-bottom: 20px;
+
 }
 
 input,
 select {
     background: rgba(255, 255, 255, 0.10);
+    padding: 20px 30px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 8px;
+    margin-left: 4px;
+    color: gray;
+    
 
-    ;
+    
 }
+
+
 
 table,
 th,
 td {
-    border: 1px solid;
+    border: 1px solid gray;
     border-collapse: collapse;
     padding: 15px;
 }
@@ -261,6 +289,8 @@ td {
 #form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+   
 
 }
 
@@ -269,12 +299,27 @@ td {
 
 }
 
+/* team section */
+
+.team{
+    text-align: center;
+    margin-top: 60px;
+}
+.team-heading{
+    font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; 
+}
+
 .team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1100px;
     height: auto;
     gap: 20px;
+    margin: 0px auto;
+    
 }
 
 .team-img {
@@ -289,6 +334,7 @@ td {
     position: absolute;
     margin-top: -60px;
     margin-left: 20px;
+    text-align: left;
 
 }
 
@@ -369,14 +415,28 @@ footer {
         color: white;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: start;
+        
+        align-items: center;
+        text-align: center;
         margin: 100px 10px;
         width: auto;
         height: auto;
         gap: 20px;
+        
 
 
+    }
+    #run-image{
+        padding: 30px;
+    }
+
+    #bmi-calculation-section {
+        display: flex;
+        flex-direction: column;
+        
+        align-items:start;
+        padding: 70px;
+        gap: 30px;
     }
 
 
