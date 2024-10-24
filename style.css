@@ -40,13 +40,7 @@ header {
 
 }
 
-/* #nav-bar a:hover{
-    background-color: red;
-    border-radius: 16px;
-    
-    height: 50px;
-    width:400px;
-} */
+
 
 
 .menu-container {
@@ -58,6 +52,18 @@ header {
     border-radius: 30px;
 
 
+}
+
+.menu-container a {
+    padding: 10px;
+}
+
+.menu-container a:hover{
+    background-color: red;
+    border-radius: 18px;
+    padding: 10px;
+    height: 60px;
+    width:400px;
 }
 
 #menu-icon {
@@ -179,6 +185,7 @@ main {
     justify-content: space-around;
     align-items: center;
     margin-top: 40px;
+     padding: 10px 270px;
 
 }
 
@@ -195,10 +202,10 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 18px;
     background: #222;
-    width: 1060px;
+    width: 1200px;
     height: 371px;
     margin: 100px auto;
 
@@ -368,6 +375,7 @@ line-height: 120%;
 }
 .location-main{
     margin: 0px auto;
+    margin-top: 100px;
     
 }
 .location-container {
@@ -492,6 +500,7 @@ margin:  30px 10%;
         justify-content: space-around;
         align-items: center;
         margin-top: 40px;
+        padding: 10px 40px;
         gap: 20px;
 
     }
@@ -518,6 +527,10 @@ margin:  30px 10%;
     #run-image{
         padding: 30px;
         border-radius: 48px;
+    }
+
+    .bmi{
+        width: 100%;
     }
 
     #bmi-calculation-section {
