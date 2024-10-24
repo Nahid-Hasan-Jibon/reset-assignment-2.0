@@ -154,10 +154,16 @@ font-weight: 900;
 
 }
 
+.habit-p{
+    margin-top: 30px;
+
+}
+
 .habit-cards{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
     
 }
 .habit-section-image{
@@ -293,6 +299,19 @@ footer{
         margin-left: 220px; 
         color: white;
         padding-left: 30px;
+    }
+
+    .habit-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+        
+    }
+    .habit-p{
+        margin-top: 20px;
     }
 
 
